@@ -1,0 +1,21 @@
+{
+    "data": [
+        {
+            "address": "10",
+            "name": "reg1",
+            "len": 2,
+            "rw": "r",
+            "desc": "enable pwm",
+            "showtype": "1"
+    },
+        {
+            "address": "12",
+            "name": "reg2",
+            "len": 2,
+            "rw": "rw",
+            "desc": "closw pwm",
+            "showtype": "2"
+    }
+
+  ]
+}
