@@ -1,0 +1,109 @@
+{
+    "regs": [
+        {
+            "address": "10",
+            "name": "reg1",
+            "len": 2,
+            "rw": "r",
+            "desc": "enable pwm",
+            "type": "1",
+            "bits": [
+                {
+                    "bitmask": 1,
+                    "name": "bit0",
+                    "rw": "r",
+                    "desc": "bit0 pwm",
+                    "type": "1",
+                    "states": [
+                        {
+                            "state": "1",
+                            "name": "on",
+                            "desc": "open pwm",
+                            "type": 1
+                        }, {
+                            "state": "0",
+                            "name": "off",
+                            "desc": "open pwm",
+                            "type": 1
+                        }
+
+                    ]
+                },
+                {
+                    "bitmask": 2,
+                    "name": "bit1",
+                    "rw": "r",
+                    "desc": "bit1 pwm",
+                    "type": "1",
+                    "states": [
+                        {
+                            "state": "1",
+                            "name": "22on",
+                            "desc": "open pwm",
+                            "type": 1
+                        }, {
+                            "state": "0",
+                            "name": "22off",
+                            "desc": "open pwm",
+                            "type": 1
+                        }
+
+                    ]
+                }
+            ]
+    },
+        {
+            "address": "12",
+            "name": "reg2",
+            "len": 2,
+            "rw": "rw",
+            "desc": "closw pwm",
+            "type": "2",
+            "bits": [
+                {
+                    "bitmask": 1,
+                    "name": "12bit0",
+                    "rw": "r",
+                    "desc": "12bit0 pwm",
+                    "type": "1",
+                    "states": [
+                        {
+                            "state": "1",
+                            "name": "33on",
+                            "desc": "open pwm",
+                            "type": 1
+                        }, {
+                            "state": "0",
+                            "name": "off",
+                            "desc": "open pwm",
+                            "type": 1
+                        }
+
+                    ]
+                },
+                {
+                    "bitmask": 2,
+                    "name": "12bit1",
+                    "rw": "r",
+                    "desc": "12bit1 pwm",
+                    "type": "1",
+                    "states": [
+                        {
+                            "state": "1",
+                            "name": "44on",
+                            "desc": "open pwm",
+                            "type": 1
+                        }, {
+                            "state": "0",
+                            "name": "off",
+                            "desc": "open pwm",
+                            "type": 1
+                        }
+
+                    ]
+                }
+            ]
+    }
+
+  ]
+}
